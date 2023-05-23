@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+}
+
+:root{
+    --white: #FFFFFF;
+    --lightblue: #CAC9FF;
+    --red: #FF5555;
+    --yellow: Yellow;
+    --green: #00BB8F;
+    --blue: #1125D6;
+    --darknavy: #303B59;
+}
+
+.container{
+        width: 375px;
+        height: 850px;
+        background-color: var(--white);
+}
+
+.box{
+    width: 375px;
+    height: 356px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    
+}
+
+.text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: var(--lightblue);
+    padding-top: 24px;
+}
+
+.circle{
+    border-radius: 100%;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    width: 140px;
+    height: 140px;
+    margin-top: 50px;
+    margin-left: 118px;
+    
+
+}
+
+.numb{
+    padding-top: 25px;
+    padding-left: 38px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    color:var(--white);
+}
+
+.numb2{
+    padding-left: 47px;
+    padding-top: 65px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--lightblue);
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+h1{
+    padding-left: 154px;
+    width: 63px;
+    height: 31px;
+    color:var(--white);
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.description{
+    width: 320px;
+    padding-left: 58px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--lightblue);
+}
+
+.summary{
+    margin-top: 24px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--darknavy);
+    margin-left: 30px;
+}
+
+.reaction{
+    display: flex;
+   
+    width: 315px;
+    height: 56px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+
+}
+
+.react-text{
+    display: flex;
+    padding-top: 17px;
+    padding-left: 20.7px;
+}
+
+.react-text2{
+   padding-left: 16px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color:var(--red);
+}
+
+
+.react-numb{
+    display: flex;
+    padding-top: 17px;
+    margin-left: 120px;
+    
+
+}
+
+.numb3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color:var(--darknavy);
+}
+
+.numb4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 10px;
+    color: var(--darknavy);
+    opacity: 0.5;
+}
+
+.button{
+    width: 315px;
+    height: 56px;
+    background-color: var(--darknavy);
+    border-radius: 128px;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+.continue{
+    margin-left: 120px;
+    padding-top: 17px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--white);
+
+}
+
+@media screen and (min-width: 1200px) {
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            width: 736px;
+            height: 512px;
+            display: flex;
+            border-radius: 32px;
+        }
+
+        .box{
+            width: 368px;
+            height: 512px;
+            border-radius: 32px;
+        
+        }
+
+        .circle{
+            width: 200px;
+            height: 200px;
+            margin-left: 92px;
+            
+        }
+
+        .numbone{
+                padding-top: 20px;
+                margin-left: 27px;
+        }
+
+        .numb{
+            font-size: 72px;
+        }
+
+        .numb2{
+            font-size: 18px;
+        }
+
+        .great2{
+            margin-top: 28px;
+            width: 260px;
+            height: 69px;
+        }
+
+        .description{
+            font-size: 18px;
+            width: 325px;
+            height: 69px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .great{
+
+            font-size: 32px;
+        }
+
+        .button{
+            background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+            
+        }
+
+        .text{
+            font-size: 24px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+}
+
+
